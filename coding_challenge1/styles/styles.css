@@ -1,0 +1,45 @@
+.bolded {
+    font-weight: bold;
+}
+
+body {
+    background-color: pink;
+}
+
+main, header, footer {
+    width: 25%;
+    margin: 0 auto;
+    text-align: center;
+}
+
+#education {
+    color: white;
+}
+
+header h1{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 50px;
+    color: white;
+}
+header h1:hover {
+    color: black;
+}
+
+#education .reference {
+    font-size: 20px;
+}
+
+#steps {
+    text-align: left;
+    line-height: 2em;
+}
+
+main img {
+    width: 40%;
+}
+
+#quote {
+    color: white;
+    font-size: 50px;
+    line-height: 1.25em;
+}
