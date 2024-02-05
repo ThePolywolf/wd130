@@ -1,9 +1,24 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans&family=Lato:ital,wght@0,400;0,700;1,400&display=swap');
+
 body {
     background-color: #D6D6B1;
+    font-family: Lato, Helvetica, sans-serif;
+    font-size: 22px;
+    margin: 0;
+    padding: 0;
+}
+
+#logo_link {
+    padding-top: 5px;
+}
+
+.home-title, h1, .msg h2 {
+    font-family: 'Josefin Sans', Helvetica, sans-serif;
 }
 
 .icon {
     width: 80px;
+    padding-top: 10px;
 }
 
 header {
@@ -13,50 +28,79 @@ header {
 nav a {
     color: white;
     text-decoration: none;
+    padding: 35px;
+    text-align: center;
 }
 
-nav a:hover {
-    background-color: white;
-    color: #3F3F37;
-}
+    nav a:hover {
+        background-color: white;
+        color: #3F3F37;
+    }
 
 .home-title {
     color: black;
+    font-size: 2em;
+    margin-top: 10px;
+}
+
+h2 {
+    margin: 0;
 }
 
 h4 {
     color: #3F3F37;
 }
 
+main section {
+    text-align: center;
+}
+
+    main section img {
+        box-sizing: border-box;
+    }
+
+.rivers-card, .camping-card, .rapids-card {
+    margin: 200px 0;
+}
+
+.card-img {
+    border: 10px solid black;
+}
+
 .book, .join {
     background-color: #3F3F37;
     color: #D6D6B1;
+    font-size: 18px;
+    padding: 15px 30px;
+    margin-top: 50px;
+    border-radius: 15px;
+    border: 5px solid #D6D6B1;
 }
 
-.book:hover, .join:hover {
-    background-color: #922D50;
-    color: white;
-}
+    .book:hover, .join:hover {
+        background-color: #922D50;
+        color: white;
+    }
 
 .msg {
     background-color: #3F3F37;
+    line-height: 1.5em;
+    padding: 35px;
 }
 
-.msg h2 {
-    color: white;
-}
+    .msg h2 {
+        color: white;
+    }
 
-.msg p {
-    color: #D6D6B1;
-}
+    .msg p {
+        color: #D6D6B1;
+        font-size: 0.8em;
+        padding-bottom: 15px;
+    }
 
 #content {
     max-width: 1600px;
     margin: 0 auto;
-}
-
-nav a {
-    text-align: center;
 }
 
 #hero-msg h1, #hero-msg h4 {
@@ -64,10 +108,6 @@ nav a {
 }
 
 .button-box {
-    text-align: center;
-}
-
-main section {
     text-align: center;
 }
 
@@ -79,20 +119,26 @@ main section {
 footer {
     background-color: #3F3F37;
     color: white;
+    padding: 25px 50px;
+    margin-top: 200px;
 }
 
-footer p {
-    font-size: 1.2em;
-}
+    footer p {
+        font-size: 1.2em;
+    }
 
-footer p a:hover{
-    text-decoration: underline;
-}
+    footer p a:hover{
+        text-decoration: underline;
+    }
 
-footer a {
-    color: #D6D6B1;
-}
+    footer a {
+        color: #D6D6B1;
+    }
 
-footer a:hover {
-    color: white;
-}
+    footer a:hover {
+        color: white;
+    }
+
+    footer .social img {
+        padding-top: 15px;
+    }
