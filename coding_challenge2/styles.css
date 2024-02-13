@@ -1,0 +1,39 @@
+.grid-box {
+    width: 80%;
+    margin-left: 10%;
+    margin-top: 10%;
+    background: white;
+    display: grid;
+    grid-template-columns: 1fr, 1fr;
+    text-align: center;
+    align-content: center;
+}
+
+    .grid-box img {
+        width: auto;
+        grid-column: 1/2;
+        grid-row: 1/3;
+    }
+
+    .grid-box h1 {
+        grid-column: 1/3;
+        grid-row: 1/2;
+        font-size: 9em;
+        letter-spacing: 0.15em;
+    }
+
+    .grid-box p {
+        grid-column: 2/3;
+        grid-row: 2/3;
+        color: darkred;
+        font-size: 5em;
+        letter-spacing: 0.1em;
+        font-weight: bold;
+        align-self: center;
+    }
+
+.greybox {
+    grid-column: 2/3;
+    grid-row: 1/3;
+    background: lightgrey;
+}
