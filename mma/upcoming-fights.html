@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>M+ | Upcoming Fights</title>
+    <link type="text/css" rel="stylesheet" href="styles/styles.css">
 </head>
 <body>
     <header>
@@ -19,33 +20,43 @@
 
     <div id="hero">
         <img src="images/the-octagon.jpg" alt="the UFC octagon">
-        <h1>Upcoming Fights</h1>
-        <p>Stay ahead of the game with our list of upcoming UFC fights. We've got you covered with all the details you need to know to be ready for there major title matchups. Check back frequently for updates and don't miss a single moment of the action!</p>
+        <div class="hero-text">
+            <h1>Upcoming Fights</h1>
+        </div>
     </div>
 
     <main>
-        <div class="`fight-card">
-            <h2>Vettori VS Allen</h2>
-            <h3>April 6th, Italy vs. United States</h3>
-            <p>This is a matchup of two highly skilled and equally paired fighters. You don't want to miss this match. While this isn't the most monumental of matchups, it will be among the most entertaining fights this season.</p>
+        <p class="page-desc">Stay ahead of the game with our list of upcoming UFC fights. We've got you covered with all the details you need to know to be ready for there major title matchups. Check back frequently for updates and don't miss a single moment of the action!</p>
+
+        <hr/>
+
+        <div id="fights-container">
+            <div class="fight-card top-card">
+                <h2>Vettori VS Allen</h2>
+                <h3>April 6th, Italy vs. United States</h3>
+                <hr/>
+                <p>This is a matchup of two highly skilled and equally paired fighters. You don't want to miss this match. While this isn't the most monumental of matchups, it will be among the most entertaining fights this season.</p>
+            </div>
+            <div class="fight-card middle-card">
+                <h2>Perriera VS Hill</h2>
+                <h3>April 13th, Brazil (-155) vs. United States (+130)</h3>
+                <hr/>
+                <p>Periera is defending his title in this fight, however the odds are not in his favor. This will be a very technical matchup for the true MMA enthusiasts that you simply can't miss. Hill is likely to claim this title, however it is far from an easy fight for him.</p>
+            </div>
+            <div class="fight-card middle-card opaque-background"></div>
+            <div class="fight-card bottom-card">
+                <h2>Weili vs. Xionan</h2>
+                <h3>April 13th, China vs. China</h3>
+                <hr/>
+                <p>These two female fighters will be a brutal match for both of them. Weili is one of the top fighters this season, and is likely to successfully defend her title in this matchup. Her fights are a must watch, and this one is no exception.</p>
+            </div>
+            <img class="middle-image" src="images/flying-kick.jpg" alt="a flying kick">
         </div>
-        <div class="`fight-card">
-            <h2>Perriera VS Hill</h2>
-            <h3>April 13th, Brazil (-155) vs. United States (+130)</h3>
-            <p>Periera is defending his title in this fight, however the odds are not in his favor. This will be a very technical matchup for the true MMA enthusiasts that you simply can't miss. Hill is likely to claim this title, however it is far from an easy fight for him.</p>
-        </div>
-        <div class="`fight-card">
-            <h2>Weili vs. Xionan</h2>
-            <h3>April 13th, China vs. China</h3>
-            <p>These two female fighters will be a brutal match for both of them. Weili is one of the top fighters this season, and is likely to successfully defend her title in this matchup. Her fights are a must watch, and this one is no exception.</p>
-        </div>
-        <img src="images/flying-kick.jpg" alt="a flying kick">
     </main>
 
     <footer>
         <h2>Copyright &copy Dallin Wolfer</h2>
-        <p>All Rights Reserved</p>
-        <p><a href="site-plan.html">Siteplan</a></p>
+        <p>All Rights Reserved | <a href="site-plan.html">Siteplan</a></p>
     </footer>
 </body>
 </html>

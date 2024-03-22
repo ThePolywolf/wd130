@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>M+ | Home</title>
+    <link type="text/css" rel="stylesheet" href="styles/styles.css">
 </head>
 <body>
     <header>
@@ -19,34 +20,40 @@
 
     <div id="hero">
         <img src="images/left-hook.jpg" alt="a left hook punch">
-        <h1>UFC 2024</h1>
-        <h3>A Guide to the 2024 Figher Season</h3>
+        <div class="hero-text">
+            <h1>UFC 2024</h1>
+            <hr/>
+            <h3>A Guide to the 2024 Figher Season</h3>
+        </div>
     </div>
 
     <main>
-        <p>Welcome to M+, a hub for information to kickstart your 2024 UFC season! We're here for the UFC veterans and newly-converted fighters alike to help you prepare for the major up and coming events and fighters this season.</p>
+        <p class="page-desc">Welcome to M+, a hub for information to kickstart your 2024 UFC season! We're here for the UFC veterans and newly-converted fighters alike to help you prepare for the major up and coming events and fighters this season.</p>
         
-        <img src="images/kick.png" alt="a kick">
+        <div class="img-container">
+            <img src="images/kick.png" alt="a kick">
+        </div>
         
-        <div id="subpage-container">
+        <div class="subpage-container">
             <div class="subpage-ref">
                 <h2>Tis' the season</h2>
                 <p>This UFC season, we have one of the best skill pools the UFC has seen this century. Check out some of this season's top competitors!</p>
-                <a class="button" href="top-fighters.html">Top Fighters</a>
+                <a class="button" href="top-fighters.html"><p>Top Fighters</p></a>
             </div>
+
+            <div></div>
         
             <div class="subpage-ref">
                 <h2>Fight Night</h2>
                 <p>We have some major upcoming fights on the way that you don't want to miss out on! Take a look at our list of must-match fights and set aside time on your calendar; you won't want to miss it!</p>
-                <a class="button" href="">See Fights</a>
+                <a class="button" href="upcoming-fights.html"><p>See Fights</p></a>
             </div>
         </div>
     </main>
 
     <footer>
         <h2>Copyright &copy Dallin Wolfer</h2>
-        <p>All Rights Reserved</p>
-        <p><a href="site-plan.html">Siteplan</a></p>
+        <p>All Rights Reserved | <a href="site-plan.html">Siteplan</a></p>
     </footer>
 </body>
 </html>
