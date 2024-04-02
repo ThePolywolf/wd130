@@ -24,6 +24,11 @@ h3 {
     font-size: 2em;
 }
 
+h4 {
+    font-size: 1.5em;
+    line-height: 2em;
+}
+
 header {
     display: grid;
     grid-template-columns: 150px 1fr 1fr;
@@ -93,17 +98,6 @@ footer {
         font-size: 1.5em;
     }
 
-.page-desc {
-    font-size: 1.5em;
-    line-height: 2.5em;
-    width: 80%;
-    margin: 150px auto;
-    padding: 25px;
-    text-align: center;
-    border: 5px solid #6a3f9c;
-    color: #6a3f9c;
-}
-
 .img-container{
     width: 80%;
     margin: 0 auto;
@@ -155,8 +149,8 @@ footer {
     width: 100%;
     align-content: center;
     display: grid;
-    row-gap: 15px;
-    margin-bottom: 50px;
+    row-gap: 50px;
+    margin: 50px 0;
 }
 
 .fight-card {
