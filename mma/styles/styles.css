@@ -14,10 +14,12 @@ h1, h2, h3, h4, h5, h6 {
 
 h1 {
     font-size: 3em;
+    line-height: 1.5em;
 }
 
 h2 {
     font-size: 2.5em;
+    line-height: 1.5em;
 }
 
 h3 {
@@ -31,7 +33,7 @@ h4 {
 
 header {
     display: grid;
-    grid-template-columns: 150px 1fr 1fr;
+    grid-template-columns: 150px 1fr;
     background-color: #53b573;
     font-weight: bolder;
     font-size: 1.65em;
@@ -43,7 +45,6 @@ header {
     }
 
 nav {
-    grid-column: 3;
     display: flex;
     justify-content: space-around;
     align-items: center;
@@ -216,12 +217,12 @@ footer {
     width: 70%;
     margin: 0 auto;
     display: grid;
-    grid-template-columns: 400px auto;
+    grid-template-columns: 30% auto;
     column-gap: 100px;
 }
 
     .fighter-card img {
-        width: 350px;
+        width: 90%;
         margin: auto auto;
     }
 
@@ -263,5 +264,22 @@ footer {
     h2 {
         font-size: 2em;
         line-height: 1.1em;
+    }
+
+    #heading-title {
+        margin: 100px auto;
+    }
+
+    .fighter-card {
+        grid-template-columns: 1fr;
+    }
+
+    nav {
+        flex-direction: column;
+    }
+
+    nav a {
+        display: block;
+        margin: 15px;
     }
 }
