@@ -99,6 +99,13 @@ footer {
         font-size: 1.5em;
     }
 
+.page-desc {
+    width: 70%;
+    margin: 150px auto;
+    font-size: 1.5em;
+    line-height: 1.5em;
+}
+
 .img-container{
     width: 80%;
     margin: 0 auto;
