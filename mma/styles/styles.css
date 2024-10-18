@@ -34,7 +34,7 @@ h4 {
 header {
     display: grid;
     grid-template-columns: 150px 1fr;
-    background-color: #53b573;
+    background-color: #154726;
     font-weight: bolder;
     font-size: 1.65em;
 }
@@ -63,12 +63,16 @@ nav a, .button {
     }
 
 footer {
-    background-color: #53b573;
+    background-color: #154726;
     color: white;
     font-weight: bolder;
     text-align: center;
     padding: 15px;
 }
+
+    footer a {
+        color: #E1CFE3;
+    }
 
 /* Home Styles */
 #hero {
@@ -97,6 +101,10 @@ footer {
 
     #hero .hero-text p {
         font-size: 1.5em;
+    }
+
+    #hero-message {
+        font-size: 2em;
     }
 
 .page-desc {
